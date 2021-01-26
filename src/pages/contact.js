@@ -5,19 +5,19 @@ import { Form, Button } from "react-bootstrap"
 
 function Contact(){
 return (
-<div className="main-content3">
-    <Container>
+<div style={{backgroundColor: "#312F2F"}}>
+    
     <Form>
     <Form.Group controlId="formBasicEmail">
-      <Form.Label>Email address</Form.Label>
+      <Form.Label style={{color: "white"}}>Email address</Form.Label>
       <Form.Control type="email" placeholder="Enter email" />
-      <Form.Text className="text-muted">
+      <Form.Text style={{color: "white"}}>
         We'll never share your email with anyone else.
       </Form.Text>
     </Form.Group>
   
     <Form.Group controlId="formBasicPassword">
-      <Form.Label>Password</Form.Label>
+      <Form.Label style={{color:"white"}}>Password</Form.Label>
       <Form.Control type="password" placeholder="Password" />
     </Form.Group>
     
@@ -26,7 +26,8 @@ return (
       Submit
     </Button>
   </Form> 
-</Container></div>
+
+</div>
 ) 
 }
 export default Contact;

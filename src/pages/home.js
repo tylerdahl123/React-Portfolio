@@ -4,8 +4,8 @@ import { Container, Row, Col} from "../components/layout/layout";
 import me from "../assets/me.png"
 function Home(){
 return (
+<div style={{backgroundColor: "#84DCCF"}}>
 
-<div  className="main-content">
 {/* <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
   <h1>Pupster</h1>
   <h2>They're the Good Boys and Girls</h2>
@@ -13,9 +13,9 @@ return (
 <Container>
   <Row>
     <Col size="md-12">
-      <h1>About Me!</h1>
+      <h1>Welcome!</h1>
     </Col>
-    <img src={me} className="img-fluid"/>
+    <img src={me} className="main-content"/>
   </Row>
   <Row>
     <Col size="md-12">

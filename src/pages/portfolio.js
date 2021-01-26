@@ -2,15 +2,18 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 import  troyQuiz  from "../assets/troyQuiz.png";
 import searchRescue from "../assets/newSearch.png";
-import academy from "../assets/academy.png"
+import academy from "../assets/academy.png";
+import workout from "../assets/workoutTracker.png";
+import googlebook from "../assets/googlebook.png";
+import notetaker from "../assets/noteTaker.png";
 import {Container} from "../components/layout/layout"
 
 
 function portfolio(){
 
     return (
-        <div style={{background: "#3333"}} >
-        {/* <Container > */}
+        <div style={{background: "#F6E8EA"}} >
+        {/* <Container > */}<p style={{textAlign: "center"}}>Click the images to be redirected to the GITHUB Repository!</p>
     <Carousel>
     <Carousel.Item> 
         <a href="https://github.com/tylerdahl123/javascript-quiz-game">
@@ -50,8 +53,47 @@ function portfolio(){
         <p>ALL IN ONE CODING KNOWLEDGE REPOSITORY</p>
       </Carousel.Caption>
     </Carousel.Item>
+    <Carousel.Item>
+    <a href="https://github.com/tylerdahl123/FITNESS-TRACKER">
+      <img
+        className="img-fluid"
+        src={workout}
+        alt="Click for the Repo!"
+      />
+  </a>
+      <Carousel.Caption  style={{ color: "black" }} >
+        <h3>Workout Tracker</h3>
+        <p>Keep Track of Your workouts!</p>
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item>
+    <a href="https://github.com/tylerdahl123/googlebook">
+      <img
+        className="img-fluid"
+        src={googlebook}
+        alt="Click for the Repo!"
+      />
+  </a>
+      <Carousel.Caption  style={{ color: "Black" }} >
+        <h3>Google Book Finder!</h3>
+        <p>Keep Track of your Reading list!</p>
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item>
+    <a href="https://github.com/tylerdahl123/NOTE-TAKER-HW">
+      <img
+        className="img-fluid"
+        src={notetaker}
+        alt="Click for the Repo!"
+      />
+  </a>
+      <Carousel.Caption  style={{ color: "black", cursor: "pointer"}} >
+        <h3>Note Taker!</h3>
+        <p>Keep notes all in one place!</p>
+      </Carousel.Caption>
+    </Carousel.Item>
   </Carousel>
-  <p>Click the images to be redirected to the GITHUB Repository!</p>
+  
   
   {/* </Container> */}
   </div>
