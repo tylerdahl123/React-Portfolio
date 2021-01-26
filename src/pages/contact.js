@@ -5,7 +5,7 @@ import { Form, Button } from "react-bootstrap"
 
 function Contact(){
 return (
-
+<div className="main-content3">
     <Container>
     <Form>
     <Form.Group controlId="formBasicEmail">
@@ -26,7 +26,7 @@ return (
       Submit
     </Button>
   </Form> 
-</Container>
+</Container></div>
 ) 
 }
 export default Contact;

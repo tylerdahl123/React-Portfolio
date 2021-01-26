@@ -1,38 +1,175 @@
-.App {
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+body { background-color: #333;
+  font-size: 18px;
+  line-height: 27px;
+}
+.aboutlink{
+  color: red;
+  font-size:20px;
+}
+.wrapper {
+  width:1024px;
+  margin: 40px auto;
+}
+.aboutme  h5{
+  color: lightblue;
+}
+
+.wrapper {
+  float:left;
+}
+.main-content {
+  
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right:25px;
+  padding-right:30px;
+  padding-top:15px;
+  float: left;
+  right: 33.3%;
+  width: 750px;
+}
+.main-content h1{ color:black;
+
+}
+p {
+  color: black;
+  font-size: 14px;
+}
+.repoBtn {
+  width:100%;
+  color: white;
+  padding: 15px;
+  margin: 15px;
+  cursor: pointer;
   text-align: center;
+  background-color: rgb(204, 201, 201);
+  display: inline-block;
+  
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+li {
+      color: white;
+      font-size: 25px;
   }
+.main-content2{
+  
+  margin-left: 25px;
+  padding-right:10px;
+  padding-top:15px;
+  float: left;
+  right: 33.3%;
+  width: 550px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.main-content2 h1 {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.main-content2 label{
+  color:white;
+}
+.img-thumbnail {
+  border:10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.main-content3{
+  
+  margin-top: 25px;
+  margin-left: 25px;
+ 
+  float: left;
+  width: 750px;
+  padding-right:30px;
 }
+
+.main-content3 h1{
+  color:white;
+}
+
+.img-fluid {
+  margin:10px;
+  width:100%;
+  
+
+
+}
+
+@media screen and (max-width: 1024px){
+  body { background-color: #333;
+
+}
+.wrapper {
+  width:100%;
+}
+
+.main-content{
+  margin:20px;
+
+}
+
+.main-content2{
+  margin:20px;
+}
+
+.main-content3{
+  margin:20px;
+}
+}
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #333;
+  }
+
+  .wrapper {
+      width:600px;
+  }
+  .main-content {
+     margin:20px;
+     background-color: #333;
+  }
+
+  .main-content2 {
+      margin:20px;
+      background-color: #333;
+      
+  }
+.main-content3{
+  margin:20px;
+  background-color:#333;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+      body {
+          background-color: #333;
+        }
+      
+        .wrapper {
+            width:320px;
+            float:left;
+        }
+        .main-content {
+           margin:20px;
+           
+        }
+    
+        .main-content2 {
+            margin:20px;
+            
+            
+        }
+    .main-content3{
+        margin:20px;
+    }
+  }
+
+ 
