@@ -9,7 +9,7 @@ import {Container} from "../components/layout/layout"
 function portfolio(){
 
     return (
-        <div style={{background: "#3333"}}>
+        <div style={{background: "#3333"}} >
         {/* <Container > */}
     <Carousel>
     <Carousel.Item> 

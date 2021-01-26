@@ -5,7 +5,7 @@ import me from "../assets/me.png"
 function Home(){
 return (
 
-<div style={{background: "#3333"}}>
+<div  className="main-content">
 {/* <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
   <h1>Pupster</h1>
   <h2>They're the Good Boys and Girls</h2>
@@ -15,7 +15,7 @@ return (
     <Col size="md-12">
       <h1>About Me!</h1>
     </Col>
-    <img src={me} fluid/>
+    <img src={me} className="img-fluid"/>
   </Row>
   <Row>
     <Col size="md-12">
